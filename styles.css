@@ -239,7 +239,7 @@ footer {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width:  700px) {
 
     #slider {
         height: 50vh;
@@ -258,18 +258,13 @@ footer {
     img {
         width:100%;
     }
-    #section1 .container {
-        
+    #section1 .container {    
         grid-template-columns: 1fr;
- 
-    
+
     } 
 
     #section1 .container {
- 
         grid-template-columns: 1fr;
-      
-    
     } 
 
     #locations {
@@ -282,16 +277,20 @@ footer {
 
 
     }
-
-
-
     #restaurant .left,#restaurant .right {
 
         grid-template-columns: 1fr;
         
     }
   
-    
+
+    #restaurant .right .rightLeft {
+         display:none;
+        order:2;
+    }
+     .right .rightRight {
+        order:1;
+    }
  
 }
 
