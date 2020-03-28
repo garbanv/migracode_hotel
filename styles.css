@@ -69,14 +69,74 @@ transition: all 0.5s;
 
 /* SECTION1 */
 
+.section1ContentLeft {
+    text-align:center;
+    }
+.section1ContentLeft p {
+    margin-bottom:20px;
+    font-size:14px;
+    color:#888;
+}
+.section1ContentLeft h3 {
+    font-size:68px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+    color:#333;
+    font-weight:700;
 
+}
 
 /* LOCATIONS */
 
+.locations {
+    background-color:#222;
+    color:white;
+}
 
+
+ span {
+    font-size:0.9rem;
+}
+
+ .locationsRight p {
+margin-bottom:40px;
+}
+
+ .locationsRight h3 {
+ color:white;
+}
+
+ .locationsRight h3 span  {
+   color:#ca7;
+   padding:30px 0;
+    font-size:3.4rem;
+}
+
+
+.locationsRight h3 { 
+    padding:30px 0;
+    font-size:3.4rem;  
+    color:white;
+    font-weight:700;
+}
+.locationsLeft .col-md-6 {
+    padding:0;
+    }
+
+.btn-locations {
+    background-color:#333;
+    color:white;
+}
+.btn-locations:hover {
+    background-color:#333;
+    color:#888;
+}
 
 /* RESTAURANTS */
-
+.row .img {
+    padding:0;
+    }
 
 /* FOOTER */
 
