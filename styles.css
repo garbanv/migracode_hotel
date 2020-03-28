@@ -187,3 +187,15 @@ footer {
     
     }
 }
+
+
+/* ///CARDS */
+
+.card-text {
+    font-size:0.8rem;
+    color:#888;
+}
+
+.col img {
+    /* width:30px !important; */
+    }
